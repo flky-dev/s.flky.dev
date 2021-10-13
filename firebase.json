@@ -2,12 +2,31 @@
 
 {
   "hosting": {
+
     "public": "public",
+
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+
+    "redirects": [ {
+      "source": "/",
+      "destination": "https://flky.dev",
+      "type": 302
+    }],
+
+    "rewrites": [ {
+      "source": "/**",
+      "dynamicLinks": true
+    }],
+
+    "cleanUrls": true,
+
+    "trailingSlash": false,
+
+    "appAssociation": "AUTO"
   }
 }
 }
