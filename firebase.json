@@ -11,7 +11,7 @@
 
     "redirects": [ {
       "source": "/",
-      "destination": "https://flky.dev",
+      "destination": "https://blog.flky.dev",
       "type": 302
     }],
 
